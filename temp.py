@@ -1,5 +1,4 @@
-
-if (n := int(input())) <= 10000:
-    print(f'Сумма {n} не превышает лимит, проходите')
-else:
-    print(f'Ого! {n}! Куда вам столько? Мы заберем {n - 10000}')
+numbers = [10, 20, 30]
+for num in numbers:
+    num += 5
+print(numbers)
